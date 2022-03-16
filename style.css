@@ -1,0 +1,77 @@
+@import url('font.css');
+
+/* banner */
+#banner img {
+    max-width: 100%;
+}
+/* end banner */
+
+/* learning-system */
+#learning-system, .title{
+    margin-top: 40px;
+}
+#learning-system .title-main{
+    position: relative;
+}
+#learning-system .title-main img{
+    max-width: 100%;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+#learning-system .title-main p{
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -19px;
+    font-size: 33px;
+    font-family: Regular;
+    text-transform: uppercase;
+}
+
+.title p {
+    font-family: regular;
+    font-size: 25px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.border-bottom{
+    height: 5px;
+    width: 21%;
+    background-color: #c31f29;
+    margin : auto;
+}
+
+.brand{
+    margin-top: 32px;
+    text-align: center;
+}
+
+.brand img{
+    margin: 1rem;
+    text-align: center;
+}
+/* end learning-system */
+
+/* difficult */
+#difficult {
+    background-image: url('images/bg-difficult.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#difficult .title{
+    left: 0;
+}
+#difficult .title p{
+    color : #c31f29;
+    margin-top: 136px;
+    margin-top: 40px;
+    padding: 0rem 16rem;
+}
+/* end difficult */
