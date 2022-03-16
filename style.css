@@ -28,7 +28,7 @@
     right: 0;
     bottom: -19px;
     font-size: 33px;
-    font-family: Regular;
+    font-family: regular;
     text-transform: uppercase;
 }
 
@@ -65,13 +65,37 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-#difficult .title{
-    left: 0;
-}
+
 #difficult .title p{
-    color : #c31f29;
     margin-top: 136px;
-    margin-top: 40px;
-    padding: 0rem 16rem;
+    padding: 0rem 8rem 0rem 5rem;
+    font-size: 46.643px;
+    font-family: "Myriad Pro";
+    color: rgb(195, 31, 41);
+    text-transform: uppercase;
+    line-height: 1.308;
+    text-align: center;
 }
+
+#difficult .row-content{
+    display: flex;
+}
+
+#difficult .number{
+    font-size: 67.755px;
+    font-family: "myriad-regular";
+    color: rgb(209, 33, 39);
+    line-height: 2.023;
+    text-align: center;
+}
+
+#difficult .text p{
+    font-size: 23px;
+    font-family: "myriad-regular";
+    color: rgb(197, 33, 43);
+    background-image: url(images/bg-content-difficult.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
 /* end difficult */
