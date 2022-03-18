@@ -64,6 +64,7 @@
     background-image: url('images/bg-difficult.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    padding-bottom: 40px;
 }
 
 #difficult .title p{
@@ -101,6 +102,115 @@
 }
 
 #difficult .register {
-    
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#difficult .btn-register{
+    position: absolute;
+    margin: auto;
+    top: 20px;
+    text-transform: uppercase;
+    font-size: 25.539px;
+    font-family: "myriad-regular";
+    color: rgb(35, 31, 32);
+    line-height: 1.193;
 }
 /* end difficult */
+
+/* solution */
+#solution {
+    background-image: url(images/bg-solution.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 46px;
+    text-align: center;
+}
+
+#solution .title-main {
+    margin-top: 20px;
+}
+
+#solution img{
+    max-width: 100%;
+}
+
+#solution .row-content {
+    position: relative;
+    margin : 20px
+}
+
+#solution .text-content{
+    position: absolute;
+
+}
+
+#solution .row-content-one{
+    bottom: 9px;
+    left: 133px;
+}
+
+#solution .row-content-four{
+    bottom: -7px;
+    left: 133px;
+    padding: 0rem 3rem 0rem 0rem;
+}
+#solution .text-content p {
+    font-size: 19px;
+    font-family: "myriad-regular";
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+/* end solution */
+
+/* register */
+#register{
+    background-image: url('images/bg-register.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#register .register-main{
+    background-color: #d02127;
+    width: 75%;
+    margin: auto;
+    margin-right: initial;
+}
+
+#register .register-main .title p{
+        font-size: 27px;
+        font-family: "myriad-regular";
+        color: rgb(255, 255, 255);
+        line-height: 3.25;
+        text-align: center;
+}
+#register .register-main .content{
+    text-align: -webkit-center;
+}
+
+#register .register-main input{
+    display: block;
+    width: 80%;
+    margin: 1rem;
+    height: 3rem;
+    border: none;
+    clip-path: polygon(1% 0%, 99% 0%, 100% 11%, 100% 90%, 99% 100%, 1% 100%, 0% 92%, 0% 9%);
+    padding-left: 1rem;
+}
+
+::placeholder {
+        font-size: 17px;
+        font-family: "myriad-regular";
+        color: rgb(40, 39, 39);
+        line-height: 1.526;
+        text-align: left;
+}
+/* end register */
+
+@media screen and (max-width: 1024px){
+    #learning-system .title-main p , #difficult .title p
+    {
+        font-size: 26px;
+    }
+}
