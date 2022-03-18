@@ -197,6 +197,7 @@
     border: none;
     clip-path: polygon(1% 0%, 99% 0%, 100% 11%, 100% 90%, 99% 100%, 1% 100%, 0% 92%, 0% 9%);
     padding-left: 1rem;
+    border-radius: 5%;
 }
 
 ::placeholder {
@@ -205,6 +206,22 @@
         color: rgb(40, 39, 39);
         line-height: 1.526;
         text-align: left;
+}
+#register .register-main .btn-register{
+    padding-bottom: 4rem;
+}
+#register .register-main .btn-register button{
+    font-size: 18px;
+    font-family: "myriad-regular";
+    color: rgb(208, 33, 39);
+    text-align: center;
+    border: none;
+    display: flex;
+    margin: auto;
+    padding: 6px 28px 2px 27px;
+    clip-path: polygon(3% 0%, 97% 0%, 100% 10%, 100% 90%, 98% 100%, 2% 100%, 0% 92%, 0% 9%);
+    border-radius: 5%;
+
 }
 /* end register */
 
